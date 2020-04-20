@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo]">
+  <test name="demotest(failed)">
+    <classes>
+      <class name="demotest.demotestclasstng">
+        <methods>
+          <include name="statuscheck"/>
+        </methods>
+      </class> <!-- demotest.demotestclasstng -->
+      <class name="demotest.demotestclasstngpass">
+        <methods>
+          <include name="statuscheck"/>
+        </methods>
+      </class> <!-- demotest.demotestclasstngpass -->
+    </classes>
+  </test> <!-- demotest(failed) -->
+</suite> <!-- Failed suite [Demo] -->
